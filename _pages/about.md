@@ -17,6 +17,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+<div class="language-intro" data-language-intro="en" lang="en">
+  <p class="language-intro__text">Choose your preferred language.</p>
+</div>
+<div class="language-intro" data-language-intro="zh" lang="zh-CN" hidden>
+  <p class="language-intro__text">请选择页面语言。</p>
+</div>
+
+<div class="language-panel language-panel--en" data-language-panel="en" lang="en" markdown="1">
+
 # About Me
 
 I am a student at Nankai University, Tianjin, China. My research interests include computer vision, generative AI, multimodal large language models (MLLMs), and affective computing.
@@ -203,3 +212,195 @@ Tianjin, China
 # Contact
 
 **Email:** [yuhan.zhang@mail.nankai.edu.cn](mailto:yuhan.zhang@mail.nankai.edu.cn)
+</div>
+
+<div class="language-panel language-panel--zh" data-language-panel="zh" lang="zh-CN" markdown="1">
+
+# 关于我
+
+我目前就读于中国天津的南开大学，研究兴趣包括计算机视觉、生成式人工智能、多模态大语言模型（MLLM）和情感计算。
+
+目前的研究主要聚焦于三个方向：复杂光照条件下的无监督异常检测、基于智能体的情感图像生成与编辑，以及心理学知识驱动的连续视觉情绪分析。我希望构建融合视觉理解、生成模型和结构化推理的智能系统。
+
+# 研究兴趣
+
+- **计算机视觉：** 无监督异常检测、视觉表征学习
+- **生成式人工智能：** 扩散模型、情感图像生成与编辑
+- **多模态人工智能：** 多模态大语言模型、智能体系统
+- **情感计算：** 连续视觉情绪分析、情感感知推理
+- **心理学知识驱动的人工智能：** 结构化心理学知识与多模态推理
+
+# 研究经历
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div>
+<div class="badge">IEEE CASE 2026</div>
+<img src='images/sagr-overview.png' alt='多光照异常检测的外观与几何协同重建' width='100%'>
+</div>
+</div>
+<div class='paper-box-text' markdown="1">
+
+### 面向多光照异常检测的外观–几何协同重建
+
+*2025 年 9 月 – 2026 年 3 月*
+
+**华中科技大学智能制造装备与技术全国重点实验室**<br>
+中国，武汉
+
+研究不同光照和几何条件下的无监督工业异常检测，重点分析外观信息与几何信息在异常定位中的互补作用。
+
+**研究贡献**
+- 调研无监督异常检测、多光照建模、光度立体和跨模态异常检测等方向。
+- 在 M2AD 基准上按照统一实验协议复现并评估 CDO、RD++、MSFlow、Dinomaly 和 INP-Former。
+- 参与训练参数调优、实验设计、对比评估和实验结果分析。
+- 为论文制作定量结果和异常定位图的可视化。
+
+**关键结果：** SAGR 在 M2AD 上取得 **87.0% I-AUROC** 和 **92.6% AUPRO**，相较 Dinomaly 分别提升 **4.0 和 6.7 个百分点**。
+
+**论文发表**
+
+Yuxin Zhang、Yuqi Cheng、**Yuhan Zhang**、Yunkang Cao 和 Weiming Shen，《Synergistic Appearance–Geometry Reconstruction for Multi-Illumination Anomaly Detection》，*2026 IEEE 22nd International Conference on Automation Science and Engineering (IEEE CASE)*，2026。
+
+*第三作者。*
+
+</div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div>
+<div class="badge">情感人工智能</div>
+<img src='images/affective-agent.png' alt='基于智能体的情感图像生成与编辑' width='100%'>
+</div>
+</div>
+<div class='paper-box-text' markdown="1">
+
+### 通用型情感图像生成与编辑智能体
+
+*2026 年 3 月 – 2026 年 7 月*
+
+**南开大学媒体计算实验室**<br>
+中国，天津
+
+探索基于智能体的情感图像生成与编辑方法，重点关注提示词复杂度、扩散编码器配置和面向情绪的奖励策略。
+
+**研究贡献**
+- 整理实验数据集，对齐文本提示词、目标情绪标签和生成图像。
+- 使用情绪分类准确率和 Fréchet Inception Distance（FID），分析不同提示词复杂度与扩散编码器配置下的初步结果。
+- 使用基于 softmax 情绪分类分数和归一化折损累计增益（NDCG）的奖励策略进行情绪排序评估。
+- 对比两种奖励策略，分析其对情绪一致性和生成质量的影响。
+
+**初步结果：** 基于 NDCG 的策略取得 **0.72** 的情绪分类准确率和 **30** 的 FID；基于 softmax 的策略对应结果为 **0.68** 和 **34**。
+
+</div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div>
+<div class="badge">CVPR 2027</div>
+<img src='images/psychology-skill.png' alt='心理学技能驱动的连续视觉情绪分析' width='100%'>
+</div>
+</div>
+<div class='paper-box-text' markdown="1">
+
+### 心理学技能驱动的连续视觉情绪分析
+
+*2026 年 7 月 – 至今*
+
+**南开大学媒体计算实验室**<br>
+中国，天津
+
+研究结构化心理学知识能否通过为多模态大语言模型提供可复用的心理学推理技能，提升连续视觉情绪分析能力。
+
+**研究贡献**
+- 基于成熟的心理学理论设计并实现心理学技能，将不同理论视角转化为多模态大语言模型可调用的结构化推理能力。
+- 整理数据集并准备实验输入，统一数据格式、标签和评估输入。
+- 设计并开展初步实验，评估不同心理学技能、模型配置和推理策略。
+- 在 **9 个连续视觉情绪分析数据集**上参与主要实验，对比使用和不使用心理学技能的不同多模态大语言模型。
+- 分析实验结果，评估整合心理学技能对连续情绪预测的影响。
+
+**研究状态：** CVPR 2027 投稿。
+
+</div>
+</div>
+
+# 项目经历
+
+## EZLearn：智能学习助手
+
+*2026 年 7 月 – 2026 年 8 月*
+
+**南开大学校内实习**<br>
+中国，天津
+
+参与开发面向教材和课程资料的本地优先智能学习助手，整合文档处理、知识组织、基于智能体的问答和交互式可视化。
+
+**工程贡献**
+- 使用 **FastAPI、LangChain、React 和 Electron** 开发一体化应用流程，连接教材处理、知识组织和基于智能体的问答。
+- 基于 MarkText 和 Electron 定制本地 Markdown 阅读与编辑模块，保留文件监听、标签页管理、目录导航、查找替换、状态恢复和 IPC 通信等功能。
+- 使用 React、TypeScript、Vite 和 Apache ECharts 实现交互式知识图谱，支持节点展开、拖拽、缩放、搜索、位置缓存和上下文菜单。
+- 将知识图谱与 FastAPI 后端、Redux 状态管理和本地树结构缓存集成，支持章节识别、笔记生成、图谱编辑、页码管理和知识库问答。
+- 为智能体对话集成流式 Markdown 渲染，支持通过 KaTeX、Shiki 和 Mermaid 展示数学公式、代码高亮、表格和图表。
+
+# 竞赛经历
+
+## 数据库管理系统设计
+
+*2026 年｜全国大学生计算机技能竞赛——数据库设计*
+
+**奖项：** 全国三等奖
+
+设计并实现数据库管理系统的核心组件，覆盖存储、查询执行、索引、事务管理、并发控制和恢复。
+
+- 实现磁盘管理器、页面、缓冲池管理器和记录管理模块，使用 LRU 策略进行页面替换和缓存管理。
+- 开发 SQL DDL、DML 和 DQL 执行流程，支持投影、连接、子查询和聚合查询。
+- 使用 B+ 树实现唯一索引和索引维护。
+- 实现事务提交与回滚、表级共享锁与排他锁、wait-die 并发控制，以及基于 WAL 的 REDO/UNDO 恢复。
+- 优化 `COUNT(*)` 查询、锁管理和索引更新，并排查事务、索引节点和日志对象相关的内存泄漏。
+
+## 从对抗到共生：基于农业生态系统模型的新型人地关系分析
+
+*数学建模竞赛 / 美国大学生数学建模竞赛（MCM/ICM）｜年份待补充*
+
+**奖项：** Meritorious Winner（M 奖）
+
+构建农业生态系统建模框架，研究物种相互作用、生态系统稳定性和不同农业实践的生态效益。
+
+- 使用 Logistic 模型构建食物网，并通过四阶 Runge–Kutta 方法求解种群动力学微分方程。
+- 构建 Logistic–Gaussian 竞争模型，分析本土物种重新引入后的种群变化与种间竞争。
+- 使用 XGBoost 二分类研究生态因素对系统稳定性的影响，并通过网络分析评估不同物种的生态贡献。
+- 使用层次分析法（AHP）构建农业生态效益评价模型，对比有机农业和传统农业系统。
+
+# 教育经历
+
+## 南开大学
+
+*2024 年 9 月 – 2028 年 7 月（预计）*
+
+中国，天津
+
+# 荣誉与奖项
+
+- **全国三等奖**——全国大学生计算机技能竞赛，数据库设计，2026 年。
+- **Meritorious Winner（M 奖）**——数学建模竞赛 / 美国大学生数学建模竞赛（MCM/ICM），年份待补充。
+
+# 技术能力
+
+- **编程语言：** Python、C++、C、Java、SQL。
+- **人工智能与后端开发：** FastAPI、LangChain。
+- **前端与桌面开发：** React、TypeScript、Vite、Electron、Redux。
+- **数据可视化与渲染：** Apache ECharts、KaTeX、Shiki、Mermaid。
+- **研究方向：** 计算机视觉、异常检测、扩散模型、多模态大语言模型、情感计算。
+
+# 语言能力
+
+- **中文：** 母语。
+- **英文：** 熟练程度待更新。
+
+# 联系方式
+
+**邮箱：** [yuhan.zhang@mail.nankai.edu.cn](mailto:yuhan.zhang@mail.nankai.edu.cn)
+
+</div>

@@ -107,3 +107,51 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.language-switcher {
+    align-items: center;
+    display: flex;
+    gap: .25em;
+    white-space: nowrap;
+    position: absolute;
+    right: .5em;
+    top: .5em;
+    z-index: 11;
+}
+
+.language-switcher__button {
+    background: transparent;
+    border: 0;
+    color: $masthead-link-color;
+    cursor: pointer;
+    font-size: .85em;
+    font-weight: 700;
+    padding: .35em .45em;
+}
+
+.language-switcher__button:hover,
+.language-switcher__button:focus,
+.language-switcher__button.is-active {
+    color: $masthead-link-color-hover;
+    text-decoration: underline;
+}
+
+.language-switcher__button:focus {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+}
+
+.language-switcher__separator {
+    color: $gray;
+    font-size: .85em;
+}
+
+.language-panel[hidden] {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .language-switcher {
+        right: 3.5em;
+    }
+}

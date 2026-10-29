@@ -10,20 +10,20 @@
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.bio %}<p class="author__bio"><span data-language-text="en">{{ author.bio }}</span><span data-language-text="zh" hidden>人工智能、计算机视觉与智能系统</span></p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
       {% if site.description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
+        <li><div style="white-space: normal; margin-bottom: 1em;"><span data-language-text="en">{{ site.description }}</span><span data-language-text="zh" hidden>智能硬件、计算机视觉、嵌入式系统与人工智能领域的研究与工程项目。</span></div></li>
       {% endif %}
       {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span data-language-text="en">{{ author.location }}</span><span data-language-text="zh" hidden>中国，天津</span></li>
       {% endif %}
       {% if author.employer %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span data-language-text="en">{{ author.employer }}</span><span data-language-text="zh" hidden>南开大学</span></li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
