@@ -6,6 +6,7 @@
   var panels = document.querySelectorAll('[data-language-panel]');
   var intros = document.querySelectorAll('[data-language-intro]');
   var localizedText = document.querySelectorAll('[data-language-text]');
+  var languageLinks = document.querySelectorAll('[data-language-link]');
 
   function setLanguage(language) {
     var selected = language === 'zh' ? 'zh' : 'en';
@@ -26,6 +27,10 @@
 
     Array.prototype.forEach.call(localizedText, function (text) {
       text.hidden = text.getAttribute('data-language-text') !== selected;
+    });
+
+    Array.prototype.forEach.call(languageLinks, function (link) {
+      link.setAttribute('href', link.getAttribute('data-url-' + selected));
     });
 
     document.documentElement.lang = selected === 'zh' ? 'zh-CN' : 'en';

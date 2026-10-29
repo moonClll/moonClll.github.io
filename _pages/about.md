@@ -19,9 +19,11 @@ redirect_from:
 
 <div class="language-intro" data-language-intro="en" lang="en">
   <p class="language-intro__text">Choose your preferred language.</p>
+  <p class="language-intro__actions"><a class="btn btn--inverse" href="mailto:yuhan.zhang@mail.nankai.edu.cn">Email me</a> <a class="btn btn--inverse" href="https://github.com/moonClll/zhangyuhan.github.io">GitHub</a></p>
 </div>
 <div class="language-intro" data-language-intro="zh" lang="zh-CN" hidden>
   <p class="language-intro__text">请选择页面语言。</p>
+  <p class="language-intro__actions"><a class="btn btn--inverse" href="mailto:yuhan.zhang@mail.nankai.edu.cn">发送邮件</a> <a class="btn btn--inverse" href="https://github.com/moonClll/zhangyuhan.github.io">GitHub</a></p>
 </div>
 
 <div class="language-panel language-panel--en" data-language-panel="en" lang="en" markdown="1">
@@ -53,26 +55,13 @@ My current research focuses on three directions: unsupervised anomaly detection 
 
 ### Synergistic Appearance–Geometry Reconstruction for Multi-Illumination Anomaly Detection
 
-*September 2025 – March 2026*
+*IEEE CASE 2026 · Third author · September 2025 – March 2026*
 
-**State Key Laboratory of Intelligent Manufacturing Equipment and Technology, Huazhong University of Science and Technology**  
-Wuhan, China
+Unsupervised industrial anomaly detection under changing illumination and geometry, combining appearance and geometric information for anomaly localization.
 
-Investigated unsupervised industrial anomaly detection under varying illumination and geometric conditions, focusing on the complementary roles of appearance and geometry in anomaly localization.
+**Key result:** **87.0% I-AUROC** and **92.6% AUPRO** on M2AD, improving upon Dinomaly by **4.0** and **6.7** percentage points.
 
-**Research Contributions**
-- Reviewed research on unsupervised anomaly detection, multi-illumination modeling, photometric stereo, and cross-modal anomaly detection.
-- Reproduced and evaluated CDO, RD++, MSFlow, Dinomaly, and INP-Former under a unified experimental protocol on the M2AD benchmark.
-- Participated in training-parameter tuning, experimental design, comparative evaluation, and experimental result analysis.
-- Created visualizations of quantitative results and anomaly localization maps for the research paper.
-
-**Key Results:** SAGR achieved **87.0% I-AUROC** and **92.6% AUPRO** on M2AD, improving upon Dinomaly by **4.0 and 6.7 percentage points**, respectively.
-
-**Publication**
-
-Yuxin Zhang, Yuqi Cheng, **Yuhan Zhang**, Yunkang Cao, and Weiming Shen. “Synergistic Appearance–Geometry Reconstruction for Multi-Illumination Anomaly Detection.” *2026 IEEE 22nd International Conference on Automation Science and Engineering (IEEE CASE)*, 2026.
-
-*Third author.*
+[View research details](/research/sagr/)
 
 </div>
 </div>
@@ -88,20 +77,13 @@ Yuxin Zhang, Yuqi Cheng, **Yuhan Zhang**, Yunkang Cao, and Weiming Shen. “Syne
 
 ### A General-Purpose Agent for Affective Image Generation and Editing
 
-*March 2026 – July 2026*
+*Research project · March 2026 – July 2026*
 
-**Media Computing Laboratory, Nankai University**  
-Tianjin, China
+Agent-based affective image generation and editing, focusing on prompt complexity, diffusion encoder configurations, and emotion-oriented reward strategies.
 
-Explored agent-based approaches to affective image generation and editing, with an emphasis on prompt complexity, diffusion encoder configurations, and emotion-oriented reward strategies.
+**Preliminary result:** The NDCG-based strategy reached **0.72** emotion classification accuracy and **30** FID.
 
-**Research Contributions**
-- Organized experimental datasets by aligning text prompts, target emotion labels, and generated images.
-- Analyzed preliminary results under different prompt complexities and diffusion encoder configurations using emotion classification accuracy and Fréchet Inception Distance (FID).
-- Evaluated reward strategies based on softmax emotion-classification scores and Normalized Discounted Cumulative Gain (NDCG) for emotion ranking.
-- Compared the two reward strategies to investigate their effects on emotional alignment and generation quality.
-
-**Preliminary Results:** The NDCG-based strategy achieved an emotion classification accuracy of **0.72** and an FID of **30**, compared with **0.68** and **34**, respectively, for the softmax-based strategy.
+[View research details](/research/affective-agent/)
 
 </div>
 </div>
@@ -117,26 +99,22 @@ Explored agent-based approaches to affective image generation and editing, with 
 
 ### Psychology-Skill-Driven Continuous Visual Emotion Analysis
 
-*July 2026 – Present*
+*CVPR 2027 submission · July 2026 – Present*
 
-**Media Computing Laboratory, Nankai University**  
-Tianjin, China
+Psychology-informed reasoning skills for multimodal large language models, designed to improve continuous visual emotion analysis.
 
-Investigating whether structured psychological knowledge can improve continuous visual emotion analysis by equipping multimodal large language models with reusable, psychology-informed reasoning skills.
+**Scope:** Experiments across **nine continuous visual emotion analysis datasets**.
 
-**Research Contributions**
-- Designed and implemented psychology-based skills grounded in established psychological theories, translating different theoretical perspectives into structured reasoning capabilities callable by multimodal large language models.
-- Organized datasets and prepared experimental inputs, standardizing data formats, labels, and evaluation inputs.
-- Designed and conducted preliminary experiments to assess different psychological skills, model configurations, and reasoning strategies.
-- Participated in main experiments across **nine continuous visual emotion analysis datasets**, comparing different MLLMs with and without psychology-based skills.
-- Analyzed experimental results to evaluate the effects of psychological skill integration on continuous emotion prediction.
-
-**Research Status:** CVPR 2027 submission.
+[View research details](/research/psychology-skill/)
 
 </div>
 </div>
+
+<span class='anchor' id='selected-projects-en'></span>
 
 # Selected Projects
+
+
 
 ## EZLearn: An Intelligent Learning Assistant
 
@@ -153,6 +131,8 @@ Contributed to the development of a local-first intelligent learning assistant f
 - Implemented an interactive knowledge graph using React, TypeScript, Vite, and Apache ECharts, supporting node expansion, dragging, zooming, search, position caching, and context menus.
 - Integrated the knowledge graph with the FastAPI backend, Redux state management, and local tree-structure caching to support chapter recognition, note generation, graph editing, page-number management, and knowledge-base question answering.
 - Integrated streaming Markdown rendering for agent conversations, with support for mathematical equations, syntax-highlighted code, tables, and diagrams through KaTeX, Shiki, and Mermaid.
+
+<span class='anchor' id='selected-competitions-en'></span>
 
 # Selected Competitions
 
@@ -183,6 +163,8 @@ Developed an agricultural ecosystem modeling framework to study species interact
 - Applied XGBoost binary classification to investigate the effects of ecological factors on system stability and used network analysis to evaluate the ecological contributions of different species.
 - Built an agricultural ecological-benefit evaluation model using the Analytic Hierarchy Process (AHP) to compare organic and conventional farming systems.
 
+<span class='anchor' id='education-en'></span>
+
 # Education
 
 ## Nankai University
@@ -208,6 +190,8 @@ Tianjin, China
 
 - **Chinese:** Native.
 - **English:** Proficiency level to be updated.
+
+<span class='anchor' id='contact-en'></span>
 
 # Contact
 
@@ -243,26 +227,13 @@ Tianjin, China
 
 ### 面向多光照异常检测的外观–几何协同重建
 
-*2025 年 9 月 – 2026 年 3 月*
+*IEEE CASE 2026 · 第三作者 · 2025 年 9 月 – 2026 年 3 月*
 
-**华中科技大学智能制造装备与技术全国重点实验室**<br>
-中国，武汉
+面向光照和几何条件变化的无监督工业异常检测，结合外观信息与几何信息进行异常定位。
 
-研究不同光照和几何条件下的无监督工业异常检测，重点分析外观信息与几何信息在异常定位中的互补作用。
+**关键结果：** 在 M2AD 上取得 **87.0% I-AUROC** 和 **92.6% AUPRO**，相较 Dinomaly 分别提升 **4.0** 和 **6.7 个百分点**。
 
-**研究贡献**
-- 调研无监督异常检测、多光照建模、光度立体和跨模态异常检测等方向。
-- 在 M2AD 基准上按照统一实验协议复现并评估 CDO、RD++、MSFlow、Dinomaly 和 INP-Former。
-- 参与训练参数调优、实验设计、对比评估和实验结果分析。
-- 为论文制作定量结果和异常定位图的可视化。
-
-**关键结果：** SAGR 在 M2AD 上取得 **87.0% I-AUROC** 和 **92.6% AUPRO**，相较 Dinomaly 分别提升 **4.0 和 6.7 个百分点**。
-
-**论文发表**
-
-Yuxin Zhang、Yuqi Cheng、**Yuhan Zhang**、Yunkang Cao 和 Weiming Shen，《Synergistic Appearance–Geometry Reconstruction for Multi-Illumination Anomaly Detection》，*2026 IEEE 22nd International Conference on Automation Science and Engineering (IEEE CASE)*，2026。
-
-*第三作者。*
+[查看研究详情](/research/sagr/)
 
 </div>
 </div>
@@ -278,20 +249,13 @@ Yuxin Zhang、Yuqi Cheng、**Yuhan Zhang**、Yunkang Cao 和 Weiming Shen，《S
 
 ### 通用型情感图像生成与编辑智能体
 
-*2026 年 3 月 – 2026 年 7 月*
+*研究项目 · 2026 年 3 月 – 2026 年 7 月*
 
-**南开大学媒体计算实验室**<br>
-中国，天津
+探索基于智能体的情感图像生成与编辑，重点关注提示词复杂度、扩散编码器配置和面向情绪的奖励策略。
 
-探索基于智能体的情感图像生成与编辑方法，重点关注提示词复杂度、扩散编码器配置和面向情绪的奖励策略。
+**初步结果：** 基于 NDCG 的策略取得 **0.72** 的情绪分类准确率和 **30** 的 FID。
 
-**研究贡献**
-- 整理实验数据集，对齐文本提示词、目标情绪标签和生成图像。
-- 使用情绪分类准确率和 Fréchet Inception Distance（FID），分析不同提示词复杂度与扩散编码器配置下的初步结果。
-- 使用基于 softmax 情绪分类分数和归一化折损累计增益（NDCG）的奖励策略进行情绪排序评估。
-- 对比两种奖励策略，分析其对情绪一致性和生成质量的影响。
-
-**初步结果：** 基于 NDCG 的策略取得 **0.72** 的情绪分类准确率和 **30** 的 FID；基于 softmax 的策略对应结果为 **0.68** 和 **34**。
+[查看研究详情](/research/affective-agent/)
 
 </div>
 </div>
@@ -307,26 +271,22 @@ Yuxin Zhang、Yuqi Cheng、**Yuhan Zhang**、Yunkang Cao 和 Weiming Shen，《S
 
 ### 心理学技能驱动的连续视觉情绪分析
 
-*2026 年 7 月 – 至今*
+*CVPR 2027 投稿 · 2026 年 7 月 – 至今*
 
-**南开大学媒体计算实验室**<br>
-中国，天津
+为多模态大语言模型设计心理学知识驱动的推理技能，提升连续视觉情绪分析能力。
 
-研究结构化心理学知识能否通过为多模态大语言模型提供可复用的心理学推理技能，提升连续视觉情绪分析能力。
+**实验范围：** 覆盖 **9 个连续视觉情绪分析数据集**。
 
-**研究贡献**
-- 基于成熟的心理学理论设计并实现心理学技能，将不同理论视角转化为多模态大语言模型可调用的结构化推理能力。
-- 整理数据集并准备实验输入，统一数据格式、标签和评估输入。
-- 设计并开展初步实验，评估不同心理学技能、模型配置和推理策略。
-- 在 **9 个连续视觉情绪分析数据集**上参与主要实验，对比使用和不使用心理学技能的不同多模态大语言模型。
-- 分析实验结果，评估整合心理学技能对连续情绪预测的影响。
-
-**研究状态：** CVPR 2027 投稿。
+[查看研究详情](/research/psychology-skill/)
 
 </div>
 </div>
+
+<span class='anchor' id='selected-projects-zh'></span>
 
 # 项目经历
+
+
 
 ## EZLearn：智能学习助手
 
@@ -343,6 +303,8 @@ Yuxin Zhang、Yuqi Cheng、**Yuhan Zhang**、Yunkang Cao 和 Weiming Shen，《S
 - 使用 React、TypeScript、Vite 和 Apache ECharts 实现交互式知识图谱，支持节点展开、拖拽、缩放、搜索、位置缓存和上下文菜单。
 - 将知识图谱与 FastAPI 后端、Redux 状态管理和本地树结构缓存集成，支持章节识别、笔记生成、图谱编辑、页码管理和知识库问答。
 - 为智能体对话集成流式 Markdown 渲染，支持通过 KaTeX、Shiki 和 Mermaid 展示数学公式、代码高亮、表格和图表。
+
+<span class='anchor' id='selected-competitions-zh'></span>
 
 # 竞赛经历
 
@@ -373,6 +335,8 @@ Yuxin Zhang、Yuqi Cheng、**Yuhan Zhang**、Yunkang Cao 和 Weiming Shen，《S
 - 使用 XGBoost 二分类研究生态因素对系统稳定性的影响，并通过网络分析评估不同物种的生态贡献。
 - 使用层次分析法（AHP）构建农业生态效益评价模型，对比有机农业和传统农业系统。
 
+<span class='anchor' id='education-zh'></span>
+
 # 教育经历
 
 ## 南开大学
@@ -398,6 +362,8 @@ Yuxin Zhang、Yuqi Cheng、**Yuhan Zhang**、Yunkang Cao 和 Weiming Shen，《S
 
 - **中文：** 母语。
 - **英文：** 熟练程度待更新。
+
+<span class='anchor' id='contact-zh'></span>
 
 # 联系方式
 

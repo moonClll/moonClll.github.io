@@ -1,22 +1,31 @@
 # main links links
 main:
   - title: "About Me"
+    title_zh: "关于我"
     url: "/#about-me"
+    url_zh: "/#about-me"
 
-  - title: "News"
-    url: "/#-news"
+  - title: "Research"
+    title_zh: "研究经历"
+    url: "/research/sagr/"
+    url_zh: "/research/sagr/"
 
-  - title: "Publications"
-    url: "/#-publications"
+  - title: "Projects"
+    title_zh: "项目经历"
+    url: "/#selected-projects-en"
+    url_zh: "/#selected-projects-zh"
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+  - title: "Competitions"
+    title_zh: "竞赛经历"
+    url: "/#selected-competitions-en"
+    url_zh: "/#selected-competitions-zh"
 
-  - title: "Educations"
-    url: "/#-educations"
+  - title: "Education"
+    title_zh: "教育经历"
+    url: "/#education-en"
+    url_zh: "/#education-zh"
 
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
-
-  - title: "Internships"
-    url: "/#-internships"
+  - title: "Contact"
+    title_zh: "联系方式"
+    url: "/#contact-en"
+    url_zh: "/#contact-zh"
