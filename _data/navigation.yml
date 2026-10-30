@@ -5,10 +5,10 @@ main:
     url: "/#about-me"
     url_zh: "/#about-me"
 
-  - title: "Research"
+  - title: "Selected Research"
     title_zh: "研究经历"
-    url: "/research/sagr/"
-    url_zh: "/research/sagr/"
+    url: "/#selected-research-en"
+    url_zh: "/#selected-research-zh"
 
   - title: "Projects"
     title_zh: "项目经历"

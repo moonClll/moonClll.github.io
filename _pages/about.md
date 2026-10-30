@@ -42,6 +42,8 @@ My current research focuses on three directions: unsupervised anomaly detection 
 - **Affective Computing:** Continuous Visual Emotion Analysis, Emotion-Aware Reasoning
 - **Psychology-Informed AI:** Structured Psychological Knowledge and Multimodal Reasoning
 
+<span class='anchor' id='selected-research-en'></span>
+
 # Selected Research
 
 <div class='paper-box'>
@@ -213,6 +215,8 @@ Tianjin, China
 - **多模态人工智能：** 多模态大语言模型、智能体系统
 - **情感计算：** 连续视觉情绪分析、情感感知推理
 - **心理学知识驱动的人工智能：** 结构化心理学知识与多模态推理
+
+<span class='anchor' id='selected-research-zh'></span>
 
 # 研究经历
 
