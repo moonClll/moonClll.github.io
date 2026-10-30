@@ -19,11 +19,9 @@ redirect_from:
 
 <div class="language-intro" data-language-intro="en" lang="en">
   <p class="language-intro__text">Choose your preferred language.</p>
-  <p class="language-intro__actions"><a class="btn btn--inverse" href="mailto:yuhan.zhang@mail.nankai.edu.cn">Email me</a> <a class="btn btn--inverse" href="https://github.com/moonClll/zhangyuhan.github.io">GitHub</a></p>
 </div>
 <div class="language-intro" data-language-intro="zh" lang="zh-CN" hidden>
   <p class="language-intro__text">请选择页面语言。</p>
-  <p class="language-intro__actions"><a class="btn btn--inverse" href="mailto:yuhan.zhang@mail.nankai.edu.cn">发送邮件</a> <a class="btn btn--inverse" href="https://github.com/moonClll/zhangyuhan.github.io">GitHub</a></p>
 </div>
 
 <div class="language-panel language-panel--en" data-language-panel="en" lang="en" markdown="1">
