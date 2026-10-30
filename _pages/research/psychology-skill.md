@@ -13,7 +13,7 @@ author_profile: true
 
 # Psychology-Skill-Driven Continuous Visual Emotion Analysis
 
-*CVPR 2027 submission · Media Computing Laboratory, Nankai University · July 2026 – Present*
+*CVPR 2027 submission · Media Computing Laboratory, Nankai University · March 2026 – Present*
 
 ![Psychology-skill-driven continuous visual emotion analysis]({{ '/images/psychology-skill.png' | relative_url }})
 
@@ -43,7 +43,7 @@ CVPR 2027 submission.
 
 # 心理学技能驱动的连续视觉情绪分析
 
-*CVPR 2027 投稿 · 南开大学媒体计算实验室 · 2026 年 7 月 – 至今*
+*CVPR 2027 投稿 · 南开大学媒体计算实验室 · 2026 年 3 月 – 至今*
 
 ![心理学技能驱动的连续视觉情绪分析]({{ '/images/psychology-skill.png' | relative_url }})
 

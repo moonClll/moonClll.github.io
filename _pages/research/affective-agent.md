@@ -13,7 +13,7 @@ author_profile: true
 
 # A General-Purpose Agent for Affective Image Generation and Editing
 
-*Research project · Media Computing Laboratory, Nankai University · March 2026 – July 2026*
+*CVPR 2027 submission · Media Computing Laboratory, Nankai University · March 2026 – Present*
 
 ![Agent-based affective image generation and editing]({{ '/images/affective-agent.png' | relative_url }})
 
@@ -42,7 +42,7 @@ The NDCG-based strategy achieved **0.72** emotion classification accuracy and **
 
 # 通用型情感图像生成与编辑智能体
 
-*研究项目 · 南开大学媒体计算实验室 · 2026 年 3 月 – 2026 年 7 月*
+*CVPR 2027 投稿 · 南开大学媒体计算实验室 · 2026 年 3 月 – 至今*
 
 ![基于智能体的情感图像生成与编辑]({{ '/images/affective-agent.png' | relative_url }})
 
