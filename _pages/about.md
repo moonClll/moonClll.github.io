@@ -107,23 +107,25 @@ Psychology-informed reasoning skills for multimodal large language models, desig
 
 # Selected Projects
 
+## Intelligent Learning Assistance System Development
 
+*SinoSoft International internship*
 
-## EZLearn: An Intelligent Learning Assistant
+**Project overview:** Developed an intelligent learning assistance system for textbook study, integrating textbook PDF parsing, structured note generation, knowledge-base construction, and intelligent question answering through large language models and multi-agent collaboration.
 
-*July 2026 – August 2026*
+**Core design:** Built an **Electron + React + FastAPI** application and used **LangChain / LangGraph** to orchestrate multi-agent workflows. Designed an LLM Wiki persistent knowledge-management mechanism with layered storage, incremental updates, concept deduplication, and bidirectional links for continuous cross-chapter knowledge accumulation, organization, and retrieval.
 
-**On-Campus Internship, Nankai University**  
-Tianjin, China
+## MediaPipe-Based Sign Language Recognition and Assisted Learning System
 
-Contributed to the development of a local-first intelligent learning assistant for textbooks and course materials, integrating document processing, knowledge organization, agent-based question answering, and interactive visualization.
+**Project background:** Developed the mobile accessibility assistant **Silent Voice** for the daily communication and sign-language learning needs of people with hearing loss. Explored lightweight computer-vision-based sign-language recognition and interaction, supporting basic sign-vocabulary recognition and assisted learning.
 
-**Engineering Contributions**
-- Developed an integrated application workflow using **FastAPI, LangChain, React, and Electron**, connecting textbook processing, knowledge organization, and agent-based question answering.
-- Customized a local Markdown reading and editing module based on MarkText and Electron, retaining file watching, tab management, directory navigation, search and replace, state restoration, and IPC communication.
-- Implemented an interactive knowledge graph using React, TypeScript, Vite, and Apache ECharts, supporting node expansion, dragging, zooming, search, position caching, and context menus.
-- Integrated the knowledge graph with the FastAPI backend, Redux state management, and local tree-structure caching to support chapter recognition, note generation, graph editing, page-number management, and knowledge-base question answering.
-- Integrated streaming Markdown rendering for agent conversations, with support for mathematical equations, syntax-highlighted code, tables, and diagrams through KaTeX, Shiki, and Mermaid.
+**Core design:** Used a collaborative **Flutter + Android native** architecture. Extracted 21 hand keypoints with **CameraX and MediaPipe**, combined hand-shape features, spatial relationships, and motion trajectories for gesture recognition, and applied multi-frame voting to improve recognition stability and provide real-time interaction feedback with integrated learning features.
+
+## Multi-Channel Video Playback and Monitoring System with Qt and GStreamer
+
+**Project overview:** Developed a modular video playback system with **C++, Qt 6, and GStreamer**, supporting local video playback, RTSP live-stream access, and dynamic multi-channel split-screen display with unified playback controls and video management.
+
+**Core design:** Used a modular architecture that decouples **Qt and GStreamer**. Managed media streams from different sources through GStreamer Pipelines for video access, decoding, and rendering. Used Qt signals and slots with dynamic layout management to organize multiple video windows, synchronize playback states, and support interactive control.
 
 <span class='anchor' id='selected-competitions-en'></span>
 
@@ -281,23 +283,25 @@ Tianjin, China
 
 # 项目经历
 
+## 智能辅学系统开发
 
+*中软国际实习*
 
-## EZLearn：智能学习助手
+**项目概述：** 面向教材学习场景，开发基于大模型与多 Agent 协作的智能辅学系统，实现教材 PDF 解析、结构化笔记生成、知识库构建及智能问答的一体化流程。
 
-*2026 年 7 月 – 2026 年 8 月*
+**核心设计：** 采用 **Electron + React + FastAPI** 架构，基于 **LangChain / LangGraph** 构建多 Agent 工作流；设计 LLM Wiki 持久化知识管理机制，通过分层存储、增量更新、概念去重与双向关联，实现跨章节知识的持续积累、组织与智能检索。
 
-**南开大学校内实习**<br>
-中国，天津
+## 基于 MediaPipe 的手语识别与辅助学习系统
 
-参与开发面向教材和课程资料的本地优先智能学习助手，整合文档处理、知识组织、基于智能体的问答和交互式可视化。
+**项目背景：** 面向听障人士的日常交流与手语学习需求，开发移动端无障碍辅助系统 **Silent Voice**，探索基于计算机视觉的轻量化手语识别与交互方式，支持基础手语词汇识别及辅助学习。
 
-**工程贡献**
-- 使用 **FastAPI、LangChain、React 和 Electron** 开发一体化应用流程，连接教材处理、知识组织和基于智能体的问答。
-- 基于 MarkText 和 Electron 定制本地 Markdown 阅读与编辑模块，保留文件监听、标签页管理、目录导航、查找替换、状态恢复和 IPC 通信等功能。
-- 使用 React、TypeScript、Vite 和 Apache ECharts 实现交互式知识图谱，支持节点展开、拖拽、缩放、搜索、位置缓存和上下文菜单。
-- 将知识图谱与 FastAPI 后端、Redux 状态管理和本地树结构缓存集成，支持章节识别、笔记生成、图谱编辑、页码管理和知识库问答。
-- 为智能体对话集成流式 Markdown 渲染，支持通过 KaTeX、Shiki 和 Mermaid 展示数学公式、代码高亮、表格和图表。
+**核心设计：** 采用 **Flutter 与 Android 原生协同架构**，基于 **CameraX 和 MediaPipe** 提取手部 21 个关键点，结合手形特征、空间关系与运动轨迹进行手势识别，并通过多帧投票机制提升识别稳定性，实现实时交互反馈与学习功能集成。
+
+## 基于 Qt 与 GStreamer 的多路视频播放与监控系统
+
+**项目概述：** 基于 **C++、Qt 6 与 GStreamer** 开发模块化视频播放系统，支持本地视频回放、RTSP 实时视频流接入及多路视频动态分屏展示，提供统一的播放控制与视频管理能力。
+
+**核心设计：** 采用 **Qt 与 GStreamer 解耦的模块化架构**，通过 GStreamer Pipeline 统一管理不同来源的媒体流，实现视频接入、解码与渲染；基于 Qt 信号槽机制与动态布局管理，实现多路视频窗口组织、播放状态同步及交互控制。
 
 <span class='anchor' id='selected-competitions-zh'></span>
 
