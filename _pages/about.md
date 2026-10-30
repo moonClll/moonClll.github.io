@@ -17,13 +17,6 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<div class="language-intro" data-language-intro="en" lang="en">
-  <p class="language-intro__text">Choose your preferred language.</p>
-</div>
-<div class="language-intro" data-language-intro="zh" lang="zh-CN" hidden>
-  <p class="language-intro__text">请选择页面语言。</p>
-</div>
-
 <div class="language-panel language-panel--en" data-language-panel="en" lang="en" markdown="1">
 
 # About Me
