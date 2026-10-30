@@ -9,13 +9,13 @@ author_profile: true
 
 <div class="language-panel language-panel--en" data-language-panel="en" lang="en" markdown="1">
 
-[← Back to homepage](/#about-me)
+[← Back to homepage]({{ '/#about-me' | relative_url }})
 
 # Synergistic Appearance–Geometry Reconstruction for Multi-Illumination Anomaly Detection
 
 *IEEE CASE 2026 · Third author · September 2025 – March 2026*
 
-![Synergistic appearance and geometry reconstruction for multi-illumination anomaly detection](/images/sagr-overview.png)
+![Synergistic appearance and geometry reconstruction for multi-illumination anomaly detection]({{ '/images/sagr-overview.png' | relative_url }})
 
 ## Overview
 
@@ -38,19 +38,19 @@ Yuxin Zhang, Yuqi Cheng, **Yuhan Zhang**, Yunkang Cao, and Weiming Shen. “Syne
 
 *Third author.*
 
-[← Back to homepage](/#about-me)
+[← Back to homepage]({{ '/#about-me' | relative_url }})
 
 </div>
 
 <div class="language-panel language-panel--zh" data-language-panel="zh" lang="zh-CN" markdown="1">
 
-[← 返回主页](/#about-me)
+[← 返回主页]({{ '/#about-me' | relative_url }})
 
 # 面向多光照异常检测的外观–几何协同重建
 
 *IEEE CASE 2026 · 第三作者 · 2025 年 9 月 – 2026 年 3 月*
 
-![多光照异常检测的外观与几何协同重建](/images/sagr-overview.png)
+![多光照异常检测的外观与几何协同重建]({{ '/images/sagr-overview.png' | relative_url }})
 
 ## 项目概述
 
@@ -73,6 +73,6 @@ Yuxin Zhang、Yuqi Cheng、**Yuhan Zhang**、Yunkang Cao 和 Weiming Shen，《S
 
 *第三作者。*
 
-[← 返回主页](/#about-me)
+[← 返回主页]({{ '/#about-me' | relative_url }})
 
 </div>

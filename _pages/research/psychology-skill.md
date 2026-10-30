@@ -9,13 +9,13 @@ author_profile: true
 
 <div class="language-panel language-panel--en" data-language-panel="en" lang="en" markdown="1">
 
-[← Back to homepage](/#about-me)
+[← Back to homepage]({{ '/#about-me' | relative_url }})
 
 # Psychology-Skill-Driven Continuous Visual Emotion Analysis
 
 *CVPR 2027 submission · Media Computing Laboratory, Nankai University · July 2026 – Present*
 
-![Psychology-skill-driven continuous visual emotion analysis](/images/psychology-skill.png)
+![Psychology-skill-driven continuous visual emotion analysis]({{ '/images/psychology-skill.png' | relative_url }})
 
 ## Overview
 
@@ -33,19 +33,19 @@ This project investigates whether structured psychological knowledge can improve
 
 CVPR 2027 submission.
 
-[← Back to homepage](/#about-me)
+[← Back to homepage]({{ '/#about-me' | relative_url }})
 
 </div>
 
 <div class="language-panel language-panel--zh" data-language-panel="zh" lang="zh-CN" markdown="1">
 
-[← 返回主页](/#about-me)
+[← 返回主页]({{ '/#about-me' | relative_url }})
 
 # 心理学技能驱动的连续视觉情绪分析
 
 *CVPR 2027 投稿 · 南开大学媒体计算实验室 · 2026 年 7 月 – 至今*
 
-![心理学技能驱动的连续视觉情绪分析](/images/psychology-skill.png)
+![心理学技能驱动的连续视觉情绪分析]({{ '/images/psychology-skill.png' | relative_url }})
 
 ## 项目概述
 
@@ -63,6 +63,6 @@ CVPR 2027 submission.
 
 CVPR 2027 投稿。
 
-[← 返回主页](/#about-me)
+[← 返回主页]({{ '/#about-me' | relative_url }})
 
 </div>

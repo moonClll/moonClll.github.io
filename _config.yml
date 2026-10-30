@@ -9,6 +9,7 @@
 title: "Yuhan Zhang | Academic Homepage"
 description: "Research and engineering projects in intelligent hardware, computer vision, embedded systems, and AI."
 repository: "moonClll/zhangyuhan.github.io"
+baseurl: "/zhangyuhan.github.io"
 google_scholar_stats_use_cdn: true
 
 # google analytics

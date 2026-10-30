@@ -61,7 +61,7 @@ Unsupervised industrial anomaly detection under changing illumination and geomet
 
 **Key result:** **87.0% I-AUROC** and **92.6% AUPRO** on M2AD, improving upon Dinomaly by **4.0** and **6.7** percentage points.
 
-[View research details](/research/sagr/)
+[View research details]({{ '/research/sagr/' | relative_url }})
 
 </div>
 </div>
@@ -83,7 +83,7 @@ Agent-based affective image generation and editing, focusing on prompt complexit
 
 **Preliminary result:** The NDCG-based strategy reached **0.72** emotion classification accuracy and **30** FID.
 
-[View research details](/research/affective-agent/)
+[View research details]({{ '/research/affective-agent/' | relative_url }})
 
 </div>
 </div>
@@ -105,7 +105,7 @@ Psychology-informed reasoning skills for multimodal large language models, desig
 
 **Scope:** Experiments across **nine continuous visual emotion analysis datasets**.
 
-[View research details](/research/psychology-skill/)
+[View research details]({{ '/research/psychology-skill/' | relative_url }})
 
 </div>
 </div>
@@ -233,7 +233,7 @@ Tianjin, China
 
 **关键结果：** 在 M2AD 上取得 **87.0% I-AUROC** 和 **92.6% AUPRO**，相较 Dinomaly 分别提升 **4.0** 和 **6.7 个百分点**。
 
-[查看研究详情](/research/sagr/)
+[查看研究详情]({{ '/research/sagr/' | relative_url }})
 
 </div>
 </div>
@@ -255,7 +255,7 @@ Tianjin, China
 
 **初步结果：** 基于 NDCG 的策略取得 **0.72** 的情绪分类准确率和 **30** 的 FID。
 
-[查看研究详情](/research/affective-agent/)
+[查看研究详情]({{ '/research/affective-agent/' | relative_url }})
 
 </div>
 </div>
@@ -277,7 +277,7 @@ Tianjin, China
 
 **实验范围：** 覆盖 **9 个连续视觉情绪分析数据集**。
 
-[查看研究详情](/research/psychology-skill/)
+[查看研究详情]({{ '/research/psychology-skill/' | relative_url }})
 
 </div>
 </div>

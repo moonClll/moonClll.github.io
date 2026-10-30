@@ -9,13 +9,13 @@ author_profile: true
 
 <div class="language-panel language-panel--en" data-language-panel="en" lang="en" markdown="1">
 
-[← Back to homepage](/#about-me)
+[← Back to homepage]({{ '/#about-me' | relative_url }})
 
 # A General-Purpose Agent for Affective Image Generation and Editing
 
 *Research project · Media Computing Laboratory, Nankai University · March 2026 – July 2026*
 
-![Agent-based affective image generation and editing](/images/affective-agent.png)
+![Agent-based affective image generation and editing]({{ '/images/affective-agent.png' | relative_url }})
 
 ## Overview
 
@@ -32,19 +32,19 @@ This project explored agent-based approaches to affective image generation and e
 
 The NDCG-based strategy achieved **0.72** emotion classification accuracy and **30** FID, compared with **0.68** and **34**, respectively, for the softmax-based strategy.
 
-[← Back to homepage](/#about-me)
+[← Back to homepage]({{ '/#about-me' | relative_url }})
 
 </div>
 
 <div class="language-panel language-panel--zh" data-language-panel="zh" lang="zh-CN" markdown="1">
 
-[← 返回主页](/#about-me)
+[← 返回主页]({{ '/#about-me' | relative_url }})
 
 # 通用型情感图像生成与编辑智能体
 
 *研究项目 · 南开大学媒体计算实验室 · 2026 年 3 月 – 2026 年 7 月*
 
-![基于智能体的情感图像生成与编辑](/images/affective-agent.png)
+![基于智能体的情感图像生成与编辑]({{ '/images/affective-agent.png' | relative_url }})
 
 ## 项目概述
 
@@ -61,6 +61,6 @@ The NDCG-based strategy achieved **0.72** emotion classification accuracy and **
 
 基于 NDCG 的策略取得 **0.72** 的情绪分类准确率和 **30** 的 FID；基于 softmax 的策略对应结果为 **0.68** 和 **34**。
 
-[← 返回主页](/#about-me)
+[← 返回主页]({{ '/#about-me' | relative_url }})
 
 </div>
